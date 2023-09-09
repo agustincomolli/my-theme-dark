@@ -1,0 +1,32 @@
+{
+  "name": "my-dark-theme",
+  "displayName": "my-dark-theme",
+  "description": "Tema oscuro basado en Modern Dark",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "My Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/My Dark Theme-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icons/icon.png",
+  "author": {
+    "name": "Agustín Comolli",
+    "email": "agustincomolli@yahoo.com.ar",
+    "url": "https://www.linkedin.com/in/agustincomolli/"
+  },
+  "repository": {
+    "url": "https://github.com/agustincomolli/my-theme-dark",
+    "type": "git"
+  },
+  "publisher": "agustincomolli"
+}
