@@ -1,7 +1,7 @@
 {
 	"name": "My Dark Theme",
 	"type": "dark",
-	"include": "./dark_plus.json",
+	"include": "./dark_modern.json",
 	"tokenColors": [
 		// Elementos que van a tener letra cursiva.
 		{
