@@ -1,6 +1,6 @@
 {
-  "name": "my-dark-theme",
-  "displayName": "my-dark-theme",
+  "name": "my-modern-dark-theme",
+  "displayName": "my-modern-dark-theme",
   "description": "Tema oscuro basado en Modern Dark",
   "version": "0.0.1",
   "engines": {
@@ -12,7 +12,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "My Dark Theme",
+        "label": "My Modern Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/My Dark Theme-color-theme.json"
       }
