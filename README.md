@@ -52,6 +52,7 @@ Puedes personalizar aún más el tema modificando tu archivo `settings.json`. Aq
     ]
   }
 }
+```
 
 ## Créditos
 **Tema Modern Dark:** Tema original por Microsoft.
