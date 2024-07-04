@@ -2,7 +2,7 @@
   "name": "my-modern-dark-theme",
   "displayName": "my-modern-dark-theme",
   "description": "Tema oscuro basado en Modern Dark",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -18,14 +18,13 @@
       }
     ],
     "configurationDefaults": {
-      "editor.fontFamily": "VictorMono Nerd Font Mono",
+      "editor.fontFamily": "'Victor Mono Nerd', Consolas, 'Courier New', monospace",
       "editor.fontWeight": "600",
       "editor.fontLigatures": false
     }
   },
   "files": [
     "themes",
-    "fonts"
   ],
   "icon": "icons/icon.png",
   "author": {
