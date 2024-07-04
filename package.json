@@ -2,7 +2,7 @@
   "name": "my-modern-dark-theme",
   "displayName": "my-modern-dark-theme",
   "description": "Tema oscuro basado en Modern Dark",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -16,8 +16,17 @@
         "uiTheme": "vs-dark",
         "path": "./themes/My Dark Theme-color-theme.json"
       }
-    ]
+    ],
+    "configurationDefaults": {
+      "editor.fontFamily": "VictorMono Nerd Font Mono",
+      "editor.fontWeight": "600",
+      "editor.fontLigatures": false
+    }
   },
+  "files": [
+    "themes",
+    "fonts"
+  ],
   "icon": "icons/icon.png",
   "author": {
     "name": "Agustín Comolli",
