@@ -1,40 +1,66 @@
 {
+  // Nombre del paquete, debe ser único en el marketplace de VS Code
   "name": "my-modern-dark-theme",
+  
+  // Nombre que se mostrará en el marketplace de VS Code
   "displayName": "my-modern-dark-theme",
+  
+  // Breve descripción del tema
   "description": "Tema oscuro basado en Modern Dark",
+  
+  // Versión del tema, sigue el formato de versionado semántico
   "version": "1.0.0",
+  
+  // Versión mínima de VS Code compatible con este tema
   "engines": {
     "vscode": "^1.82.0"
   },
+  
+  // Categorías bajo las que se listará el tema en el marketplace
   "categories": [
     "Themes"
   ],
+  
+  // Define las contribuciones del tema a VS Code
   "contributes": {
+    // Lista de temas que proporciona este paquete
     "themes": [
       {
         "label": "My Modern Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/My Dark Theme-color-theme.json"
       }
-    ],
-    "configurationDefaults": {
-      "editor.fontFamily": "'Victor Mono Nerd', Consolas, 'Courier New', monospace",
-      "editor.fontWeight": "600",
-      "editor.fontLigatures": false
-    }
+    ]
   },
+  
+  // Configuraciones por defecto que se aplicarán cuando se active el tema
+  "configurationDefaults": {
+    "editor.fontFamily": "'Victor Mono Nerd', Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "600",
+    "editor.fontLigatures": false
+  },
+  
+  // Archivos y carpetas que se incluirán en el paquete final
   "files": [
-    "themes",
+    "themes"
   ],
+  
+  // Ruta al icono que se mostrará en el marketplace
   "icon": "icons/icon.png",
+  
+  // Información del autor del tema
   "author": {
     "name": "Agustín Comolli",
     "email": "agustincomolli@yahoo.com.ar",
-    "url": "https://www.linkedin.com/in/agustincomolli/"
+    "url": "https://agustincomolli.github.io/"
   },
+  
+  // Información del repositorio donde se aloja el código fuente
   "repository": {
     "url": "https://github.com/agustincomolli/my-theme-dark",
     "type": "git"
   },
+  
+  // Nombre del publicador en el marketplace de VS Code
   "publisher": "agustincomolli"
 }
